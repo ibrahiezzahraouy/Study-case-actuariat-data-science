@@ -7,11 +7,11 @@ Nous vous proposons d’estimer le bénéfice net annuel attendu par client sur 
 ## Consignes
 Nous avons 2 fichiers csv:
 1. Labeled_dataset.csv contient 1 ligne de noms de variables, et 1 000 lignes de données. Chacune de ces 1 000 lignes contient :1 index de 0 à 999, représentant de façon unique chaque client ;
-▪ 12 variables (age, salaire, coefficient bonus-malus…) caractéristiques du client ;
-▪ 1 « label cible », benefice, indiquant le bénéfice net annuel réalisé pour ce client ;
-2. Scoring_dataset.csv contient 1 ligne de noms de variables, et 300 lignes de données. Chacune de ces lignes contient :
-▪ 1 index, de 1000 à 1299 ;
-▪ 12 variables (age, salaire, coefficient bonus-malus…) ;
+  - 12 variables (age, salaire, coefficient bonus-malus…) caractéristiques du client ;
+  - 1 « label cible », benefice, indiquant le bénéfice net annuel réalisé pour ce client ;
+3. Scoring_dataset.csv contient 1 ligne de noms de variables, et 300 lignes de données. Chacune de ces lignes contient :
+  - 1 index, de 1000 à 1299 ;
+  - 12 variables (age, salaire, coefficient bonus-malus…) ;
 Nous devons utiliser les données de labeled_dataset pour construire un modèle prédictif. Nous pourrons ensuite appliquer ce modèle sur les données de scoring_dataset afin de générer vos prédictions.
 La métrique utilisée pour comparer vos résultats avec les réponses sera le score RMSE (Root Mean Squared Error).
 
