@@ -12,6 +12,7 @@ Nous avons 2 fichiers csv:
 3. Scoring_dataset.csv contient 1 ligne de noms de variables, et 300 lignes de données. Chacune de ces lignes contient :
   - 1 index, de 1000 à 1299 ;
   - 12 variables (age, salaire, coefficient bonus-malus…) ;
+
 Nous devons utiliser les données de labeled_dataset pour construire un modèle prédictif. Nous pourrons ensuite appliquer ce modèle sur les données de scoring_dataset afin de générer vos prédictions.
 La métrique utilisée pour comparer vos résultats avec les réponses sera le score RMSE (Root Mean Squared Error).
 
