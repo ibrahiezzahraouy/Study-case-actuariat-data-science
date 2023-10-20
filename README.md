@@ -28,24 +28,38 @@ Les technologies utilisées sont disponibles en open-source. Nous utilisons Pyth
 le notebook est un guide complet sur l'analyse de données et la création d'un modèle de prédiction pour les données d'assurance. Voici un résumé des principales étapes effectuées dans le notebook :
 
 ### Données :
+
 1.1. Importation des données à partir de deux fichiers CSV (labeled_dataset.csv et scoring_dataset.csv) situés dans le répertoire Google Drive.
+
 1.2. Description des données, qui comprennent des informations sur les différentes colonnes et leurs significations.
+
 1.3. Évaluation de la qualité des données, y compris la détection et la correction des erreurs et des valeurs manquantes dans le jeu de données.
 
 ### Statistiques descriptives :
+
 2.1. Calcul de la corrélation entre les différentes variables du jeu de données, ce qui permet de comprendre les relations entre elles.
+
 2.2. Visualisation des distributions des variables numériques et de leur relation avec la variable cible.
+
 2.3. Visualisation des distributions de la variable cible par rapport aux variables catégorielles.
 
 ### Modèle :
+
 3.1. Encodage des données catégorielles et séparation des données en ensembles d'entraînement et de test.
+
 3.2. Utilisation d'une stratification pour la séparation des données afin de préserver la distribution de la variable cible.
+
 3.3. Réglage des hyperparamètres du modèle à l'aide de l'optimisation bayésienne et validation des hyperparamètres.
+
 3.4. Entraînement du modèle final à l'aide des hyperparamètres optimisés et évaluation de la capacité de généralisation du modèle.
+
 3.5. Analyse de l'explicabilité et de l'importance des caractéristiques à l'aide des valeurs SHAP.
 
+
 ### Prédiction :
+
 4.1. Traitement des données de soumission pour s'assurer qu'elles sont prêtes à être utilisées par le modèle.
+
 4.2. Imputation des valeurs manquantes pour certaines variables en se basant sur des informations provenant de l'ensemble d'entraînement.
 
 Le notebook a couvert de nombreuses étapes essentielles, de l'exploration des données à la création et à l'évaluation du modèle.
